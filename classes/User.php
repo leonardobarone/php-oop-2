@@ -5,6 +5,7 @@ class User {
     private $surname;
     private $mail;
     private $date_of_birth;
+    private $credit_card;
     
     /**
      * __construct
@@ -53,6 +54,10 @@ class User {
 
     public function setDateOfBirth($_date_of_birth) {
         $this->date_of_birth = $_date_of_birth; 
+    }
+
+    public function insertCreditCard($_credit_card) {
+        $this->credit_card = $_credit_card;
     }
 }
 
